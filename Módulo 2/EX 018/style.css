@@ -1,0 +1,39 @@
+@font-face {
+    font-family:"natal" ;
+    src: url("fonts/fontenatal.otf") format("opentype");
+}
+
+
+body{
+    font: normal normal 1em arial, helvetica, sans-serif;
+    background-color: #D0C0A7;
+}
+h1, h2{
+    text-align: center;
+    text-decoration: underline;
+
+}
+main{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: 5px 5px 15px #ebe6d241;
+}
+#main2{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    
+}
+.observacao{
+    text-align: center;
+    background-color:transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+p{
+    text-align: justify;
+    font-family: "natal", Arial, Helvetica, sans-serif;
+}
