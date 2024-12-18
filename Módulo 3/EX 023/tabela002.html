@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        thead{
+            background-color: rgba(211, 211, 211, 0.616);
+        }
+        th, td{
+            border: 1px solid rgb(167, 165, 165);
+            padding: 10px;
+            text-align: center;
+            
+        }
+        .numero{
+            text-align: right;
+        }
+        table{
+            border-collapse: collapse;
+            width:500px ;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        .mudanca{
+            color: green;
+        }
+        tfoot td{
+            padding-right: 10px;
+            border-collapse: separate;
+        }
+        td.totaldehab{
+            background-color: rgba(211, 211, 211, 0.616);
+            font-weight: bolder;
+            border-collapse: collapse;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th>Unidade federativa</th>
+                <th>População (Estimativa 2024)</th>
+                <th>População (Censo 2010)
+                </th>
+                <th>Mudança </th>
+                <th>Variação brusca </th>
+                <th>% da pop. total</th>
+                <th>País comparável</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td><a href="#">São Paulo</a></td>
+                <td class="numero">45 973 190</td>
+                <td class="numero">41 262 199</td>
+                <td class="mudanca">+11,36%</td>
+                <td>+4,710.991</td>
+                <td>21,88%</td>
+                <td><a href="#">Argentina</a> (46 621 847)</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><a href="#">Minas Gerais</a></td>
+                <td class="numero">21 322 692</td>
+                <td class="numero">19 597 330</td>
+                <td class="mudanca">+8,80%</td>
+                <td>+1.725.362</td>
+                <td>10.11%</td>
+                <td><a href="#">Burquina Fasso</a> (20 903 273)</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><a href="#">Rio de janeiro</a></td>
+                <td class="numero">17 219 679</td>
+                <td class="numero">15 989 929</td>
+                <td class="mudanca">+7,69%</td>
+                <td>+1,299.750</td>
+                <td>7,91%</td>
+                <td><a href="#">Camboja</a> (16 718 965)</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><a href="#">Bahia</a></td>
+                <td class="numero">14 850 513</td>
+                <td class="numero">14 016 906</td>
+                <td class="mudanca">+5,97%</td>
+                <td>+833.607</td>
+                <td>6,96%</td>
+                <td><a href="#">Zimbabwe</a>(14 862 924)</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><a href="#">Paraná</a></td>
+                <td class="numero">11 824 665</td>
+                <td class="numero">10 444 526</td>
+                <td class="mudanca">+13,21%</td>
+                <td>+1.380.139</td>
+                <td>5,64%</td>
+                <td><a href="#">Tunísia</a> (11 818 619)</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td><a href="#">Rio Grande do Sul</a></td>
+                <td class="numero">11 229 915</td>
+                <td class="numero">10 693 929</td>
+                <td class="mudanca">+5,01%</td>
+                <td>+535,986</td>
+                <td>5,36%</td>
+                <td><a href="#">Portugal</a> (10 343 066)</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td><a href="#">Pernambuco</a></td>
+                <td class="numero">9 539 029</td>
+                <td class="numero">8 796 448</td>
+                <td class="mudanca">+8,46%</td>
+                <td>+742.581</td>
+                <td>4,46%</td>
+                <td><a href="#">Áustria</a> (9 006 398)</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="totaldehab">Total de Habitantes</td>
+                <td colspan="5"><strong>131.959.683</strong></td>
+            </tr>
+
+        </tfoot>
+    </table>
+
+    
+</body>
+</html>
