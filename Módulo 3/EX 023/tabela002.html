@@ -42,23 +42,32 @@
             font-weight: bolder;
             border-collapse: collapse;
         }
+        caption{
+            font-size: 1.5em;
+            padding: 10px;
+            text-align: left;
+            background-color: rgb(211, 211, 211);
+            color: black;
+            border-radius: 10px 10px 0 0;
+        }
         
     </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Posição</th>
-                <th>Unidade federativa</th>
-                <th>População (Estimativa 2024)</th>
-                <th>População (Censo 2010)
+                <th scope="col">Posição</th>
+                <th scope="col">Unidade federativa</th>
+                <th scope="col">População (Estimativa 2024)</th>
+                <th scope="col">População (Censo 2010)
                 </th>
-                <th>Mudança </th>
-                <th>Variação brusca </th>
-                <th>% da pop. total</th>
-                <th>País comparável</th>
+                <th scope="col">Mudança </th>
+                <th scope="col">Variação brusca </th>
+                <th scope="col">% da pop. total</th>
+                <th scope="col">País comparável</th>
             </tr>
 
         </thead>
@@ -136,7 +145,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <td colspan="3" class="totaldehab">Total de Habitantes</td>
+                <td colspan="3" class="totaldehab" scope="row">Total de Habitantes</td>
                 <td colspan="5"><strong>131.959.683</strong></td>
             </tr>
 
