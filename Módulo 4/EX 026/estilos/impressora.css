@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1em;
+}
+menu{
+   display: none;
+}
+p{
+    text-align: justify;
+}
+article::after{
+    content: 'Este arquivo foi impresso através do site felipehens.github.io';
+}
