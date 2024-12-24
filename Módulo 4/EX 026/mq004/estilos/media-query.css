@@ -10,6 +10,7 @@
     body{
         background-image: url(../imagens/back-print.jpg);
         background-color: white;
+        height: 97vh;
     }
     main{
         border: 1px solid black;
