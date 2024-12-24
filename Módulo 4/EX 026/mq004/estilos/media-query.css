@@ -9,6 +9,16 @@
     }
     body{
         background-image: url(../imagens/back-print.jpg);
+        background-color: white;
+    }
+    main{
+        border: 1px solid black;
+    }
+    main h1{
+        color: black;
+    }
+    html::after{
+        content: 'Esse arquivo foi impresso no site felipehenrs.github.io';
     }
 }
 
