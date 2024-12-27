@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px){
+    header > menu{
+        display: block !important;
+        background-color: gray;
+    }
+    header h1{
+        text-align: left;
+        margin-left: 10px;
+    }
+    menu li{
+        width: 100px;
+        display: inline-block;
+    }
+    menu a{
+        border-top: 0;
+        background-color: rgb(54, 54, 54);
+        border-radius: 10px;
+        margin-bottom: 3px;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    menu a:hover{
+        background-color: rgba(255, 255, 255, 0.116);
+    }
+    span#burguer{
+        display: none;
+    }
+    main article{
+        max-width: 70vw;
+    }
+    main article h2{
+        text-align: center;
+    }
+    
+}
