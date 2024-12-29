@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div.container{
+            background-color: blue;
+            display: flex;
+            flex-flow: row nowrap;
+            margin: auto;
+            justify-content: space-evenly;
+            align-items: flex-end;
+            padding-top: 10px;
+        }
+        div.itens{
+            background-color: black;
+            color: white;
+            text-align: center;
+            outline: 1px solid white;
+            flex-basis: 200px;
+            flex-shrink: 1;
+            flex-grow: 1;
+            align-self: auto;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Conhecendo FlexBox</h1>
+    <div class="container">
+        <div class="itens" id="i1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis necessitatibus iste saepe eum. Iste fuga repellendus odit ratione exercitationem sapiente deserunt quidem. Quidem placeat non facilis, et esse deleniti id.
+        Itaque, omnis corrupti. Natus totam dolorum facere exercitationem non, iste at deleniti veniam ex magnam odit, ducimus enim possimus eligendi? Omnis nihil delectus tempore, suscipit minus maiores nesciunt autem eius?</div>
+        <div class="itens" id="i2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates tenetur magnam assumenda culpa, saepe iste sed temporibus at quidem fugit nihil sit ipsa modi exercitationem, soluta reiciendis ex corporis et?
+        Nobis libero nostrum repellendus dignissimos iste velit voluptatibus corrupti esse minus eligendi ipsa eaque ex eos laborum, aliquam enim quaerat repellat vel nesciunt, consectetur ad pariatur fuga excepturi quas. Aut.
+        In tempore maiores quam laudantium veritatis qui possimus dignissimos, aspernatur vel illum eos ex, dolorum sit eum. Commodi, omnis sapiente cum odit obcaecati ipsa incidunt, quia, maiores quaerat nesciunt deserunt!
+        Dicta est tempore eveniet eligendi. Ducimus maxime consectetur officiis ratione doloribus quibusdam expedita. Aliquid beatae magnam ratione vitae sint harum nostrum labore maxime tenetur quidem, ipsa mollitia ipsam fugit commodi?</div>
+        <div class="itens" id="i3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, alias! Cupiditate alias explicabo, molestiae veniam architecto sequi quas, ipsa, iusto laborum harum deleniti. Voluptate laudantium sit reprehenderit aut porro distinctio.
+        Molestias deserunt cupiditate vitae ullam, fugiat illum ratione ut officiis excepturi culpa! Corporis sit, in hic veritatis reiciendis nobis quam qui obcaecati? Temporibus culpa dolorem corrupti totam quod reiciendis incidunt?
+        Est nulla praesentium sunt minus odit laboriosam, sequi accusantium tenetur nisi placeat vel ut quis delectus, modi a exercitationem odio optio vero quos quasi. Esse earum fugiat autem commodi ducimus?
+        Repellendus, tempora iusto blanditiis at dolores sapiente, qui totam, natus sint rem quisquam minima. Similique rem a ullam mollitia, perspiciatis consectetur quam! Minus qui dolor ea doloribus autem repudiandae corrupti.
+        Magni, sed excepturi. Atque, dicta. Quod dolorem assumenda animi fugit in expedita asperiores illo veniam sit ad consequuntur repellat totam, omnis quia unde praesentium, sequi inventore beatae ipsam. Natus, dolor.
+        Quidem voluptates commodi, mollitia iusto quibusdam repudiandae. Corporis, inventore amet! Id nulla porro rerum qui at labore quidem repudiandae reiciendis ipsam vero vel sint animi commodi, est nesciunt consequatur atque!</div>
+    </div>
+</body>
+</html>
